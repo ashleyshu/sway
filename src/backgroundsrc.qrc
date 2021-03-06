@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>finalBackground.jpg</file>
+        <file>graylogo.png</file>
+        <file>instructionsHeader.png</file>
+        <file>mainHeader.png</file>
+    </qresource>
+</RCC>
