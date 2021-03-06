@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConsListDialog</class>
+ <widget class="QDialog" name="ConsListDialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1108</width>
+    <height>1189</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1108</width>
+    <height>1013</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>17</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Constraints</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="backgroundsrc.qrc">
+    <normaloff>:/images/graylogo.png</normaloff>:/images/graylogo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#ConsListDialog{
+background: #c3c3c3;
+border-image:url(:/images/finalBackground.jpg)
+}
+
+QLabel, QListWidget, QPushButton{
+font-family: &quot;Roboto Black&quot;;
+font-size: 42px;
+}
+
+QPushButton{
+background-color:white;
+}
+
+QPushButton:hover{
+background-color: #eb3f79;
+color: white;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="Content" native="true">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>140</y>
+     <width>961</width>
+     <height>831</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>481</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-weight: bold;
+font-size: 52px;
+}</string>
+    </property>
+    <property name="text">
+     <string>List of Constraints</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>941</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>941</width>
+      <height>701</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="topPanel" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1108</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1108</width>
+     <height>131</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#topPanel{
+border-image:url(:/images/mainHeader.png)
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>1080</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>61</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="removeConstraintButton">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>1080</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>191</width>
+     <height>61</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Remove</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="input_removeConstraintCount">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>980</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>191</width>
+     <height>61</height>
+    </size>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#input_removeConstraintCount{
+font-size:42px;
+padding-right:5px;
+}</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="maximum">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="removeConstraintLabel">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>980</y>
+     <width>751</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#removeConstraintLabel{
+font-size: 42px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Select Constraint Number to Remove</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="backgroundsrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
