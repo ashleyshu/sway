@@ -3,7 +3,7 @@ A Debian GNU/Linux application that provides users with a personalized schedule 
 
 Currently schedules tasks through an earliest-due-date-first algorithm by default. 
 
-## Prerequisitrs
+## Prerequisites
 1. Sign up for a [Google Developers](https://console.developers.google.com/) account if you do not already have one 
 2. Select or create a new Google Cloud Project for Sway
 3. Find the `Google Calendar API` in the Google API Library
@@ -20,7 +20,6 @@ Currently schedules tasks through an earliest-due-date-first algorithm by defaul
 14. Input your `Client ID` and `Client Secret` into your `credentials.json` files 
 
 ## How to run
-
 1. Clone repo
 2. Follow the [Google Calendar API Python Quickstart Guide](https://developers.google.com/calendar/quickstart/python)
 2. `$ cd sway/run`
@@ -31,19 +30,19 @@ Currently schedules tasks through an earliest-due-date-first algorithm by defaul
 `$ ./Sway`
 
 ## Functionalities
-- `Add Task`
-Manually input tasks that you wish to complete
-- `View Task List`
-View list of tasks that you've input
-- `Add Constraint` 
-Manually input your lifestyle time constraints (time chunks when you sleep, eat, exercise, etc.)
-- `View Constraint List`
-View list of constraints that you've input
-- `Load Inputs`
-Import your existing tasks/constraints by downloading your schedule as a .csv file from Google Calendar
-- `Save Inputs`
-Save the inputs you've made
-- `Generate Schedule and Download as CSV File`
-Generate a schedule based on the inputs you've saved
-- `Export to Google Calendar`
-Follow the steps in the pop-up to choose the schedule you wish to import, login to your Google Account through Google OAuth2 and grant Sway permission to import your schedule
+`Add Task`
+- Manually input tasks that you wish to complete
+`View Task List`
+- View list of tasks that you've input
+`Add Constraint` 
+- Manually input your lifestyle time constraints (time chunks when you sleep, eat, exercise, etc.)
+`View Constraint List`
+- View list of constraints that you've input
+`Load Inputs`
+- Import your existing tasks/constraints by downloading your schedule as a .csv file from Google Calendar
+`Save Inputs`
+- Save the inputs you've made
+`Generate Schedule and Download as CSV File`
+- Generate a schedule based on the inputs you've saved
+`Export to Google Calendar`
+- Follow the steps in the pop-up to choose the schedule you wish to import, login to your Google Account through Google OAuth2 and grant Sway permission to import your schedule
