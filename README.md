@@ -20,14 +20,10 @@ Currently schedules tasks through an earliest-due-date-first algorithm by defaul
 14. Input your `Client ID` and `Client Secret` into your `credentials.json` files 
 
 ## How to run
-1. Clone repo
-2. Follow the [Google Calendar API Python Quickstart Guide](https://developers.google.com/calendar/quickstart/python)
-2. `$ cd sway/run`
-2. `$ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
-3. Give executable access:
-`$ chmod +x Sway`
-4. Run execultable:
-`$ ./Sway`
+    $ cd sway/run
+    $ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
+    $ chmod +x Sway
+    $ ./Sway
 
 ## Functionalities
 ##### Add Task
