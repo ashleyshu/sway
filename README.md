@@ -30,19 +30,19 @@ Currently schedules tasks through an earliest-due-date-first algorithm by defaul
 `$ ./Sway`
 
 ## Functionalities
-`Add Task`
+##### Add Task
 - Manually input tasks that you wish to complete
-`View Task List`
+##### View Task List
 - View list of tasks that you've input
-`Add Constraint` 
+##### Add Constraint 
 - Manually input your lifestyle time constraints (time chunks when you sleep, eat, exercise, etc.)
-`View Constraint List`
+##### View Constraint List
 - View list of constraints that you've input
-`Load Inputs`
+##### Load Inputs
 - Import your existing tasks/constraints by downloading your schedule as a .csv file from Google Calendar
-`Save Inputs`
+##### Save Inputs
 - Save the inputs you've made
-`Generate Schedule and Download as CSV File`
+##### Generate Schedule and Download as CSV File
 - Generate a schedule based on the inputs you've saved
-`Export to Google Calendar`
+##### Export to Google Calendar
 - Follow the steps in the pop-up to choose the schedule you wish to import, login to your Google Account through Google OAuth2 and grant Sway permission to import your schedule
