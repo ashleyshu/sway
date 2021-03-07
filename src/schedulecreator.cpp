@@ -123,7 +123,7 @@ void ScheduleCreator::saveScheduleToCSV(ScheduleCreator::ScheduledTasks schedule
         QTextStream out(&file);
         QString dateTimeFormat = "yyyy-MM-ddThh:mm:ss-05:00";
 
-        out << "Subject,Start DateTime,End DateTime" << Qt::endl;
+        out << "Subject,Start DateTime,End DateTime" << endl;
         for (ScheduledTask *task : schedule) {
             out << task->name() << ",";
             out << task->startTime().toString(dateTimeFormat) << ",";

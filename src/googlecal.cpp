@@ -32,7 +32,7 @@ GoogleCal::~GoogleCal()
    delete ui;
 }
 
-//!  Upload to Google Cal
+//!  Export to Google Cal
 /*!
     \Author: Group 33
     Description: Saves the schedule file to the suers google calendar
