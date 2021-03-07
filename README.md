@@ -21,7 +21,7 @@ Currently schedules tasks through an earliest-due-date-first algorithm by defaul
 
 ## How to run
     $ cd sway/run
-    $ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
+    $ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
     $ chmod +x Sway
     $ ./Sway
 
